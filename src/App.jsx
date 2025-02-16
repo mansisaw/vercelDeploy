@@ -39,9 +39,9 @@ function App() {
     <form onSubmit={handleSubmit}>
       <div className="container">
         <h2 className='text-center font-bold '>Registration</h2>
-      <input type='text' name='name' placeholder='enter u r name' onChange={handleInput} />
-      <input type='email' name='email' placeholder='enter u r email' onChange={handleInput} />   
-      <input type='password' name='password' placeholder='enter u r password' onChange={handleInput} />
+      <input type='text' name='name' placeholder='Enter your  name' onChange={handleInput} />
+      <input type='email' name='email' placeholder='Enter your email' onChange={handleInput} />   
+      <input type='password' name='password' placeholder='Enter password' onChange={handleInput} />
       <div><button >SUBMIT</button></div>
       </div>
       </form>

@@ -6,11 +6,10 @@ import  Login from './Login.jsx'
 import './login.css'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import Home from './Home.jsx'
-import Navbar from './Navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
  <BrowserRouter>
-  <Navbar></Navbar>
+ 
  <Routes>
 
   <Route path='/' element={<App/>}/>

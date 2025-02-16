@@ -8,7 +8,7 @@ const Login = () => {
     const [password, setPassword] = useState('')
     const [msg, setmsg] = useState('')
     const Navigate = useNavigate()
-    const handlemail =(event)=>{
+    const handleInput =(event)=>{
         const name = event.target.name
         const value = event.target.value
         if('email'== name){
@@ -45,8 +45,8 @@ const Login = () => {
          <form onSubmit={handleSubmit}>
         <div className="loginForm">
         <h2 className='text-center font-bold '>Login</h2>
-      <input type='email' name='email' placeholder='enter u r email' onChange={handlemail} />   
-      <input type='password' name='password' placeholder='enter u r password' onChange={handlemail} />
+      <input type='email' name='email' placeholder='Enter your email' onChange={handleInput} />   
+      <input type='password' name='password' placeholder='Enter your password' onChange={handleInput} />
       <div><button >SUBMIT</button></div>
       </div>
       </form>
